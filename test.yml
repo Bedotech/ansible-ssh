@@ -3,7 +3,7 @@
 - hosts: all
   sudo: yes
   roles:
-    - franklinkim.ssh
+    - bedotech.ssh
   vars:
     ssh_port:
       - 22
